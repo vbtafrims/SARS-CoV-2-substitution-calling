@@ -1,13 +1,13 @@
 #!/bin/bash
 
-##For call SARS-CoV-2 nucleotide & amino acid mismatch 
-##Both Reference and Multi fasta have to no ambiguous base, indel
-##the progarm will not compare the N position base
-##Reference name have to short for bedtools
+## Pipeline for calling SARS-CoV-2 nucleotide & amino acid mismatch.
+## Both Reference and Multi fasta cannot contain ambiguous base, indel.
+## The progarm will not compare the N position base.
+## Reference name have to short for bedtools.
 multifasta=$1
 Reference=$2
 
-#Please check the directory of nCoV-19_Mismatch_source
+# Please check the directory of nCoV-19_Mismatch_source
 DIR="/path to .../source/nCoV-19_Mismatch_Ref"
 
 read -p "Enter output name: " output 
