@@ -16,9 +16,10 @@ Last updated: 27 Sep 2021
 - seqtk v1.3-r106 (https://github.com/lh3/seqtk)
 
 # Example
-An example of SARS-CoV-2-substitution-calling usage is provided in <sample>. Sample_output is a output of sample were created using the following command:
+An example of SARS-CoV-2-substitution-calling usage is provided in sample. Sample_output is a output of sample were created using the following command:
 
-sh SC2_substitution_main.sh /sample/20_sc2Alpha_Thailand.fasta.woINDEL.fa <SC2 multiplefasta without indel>  /sample/EPI_ISL_1346626.fasta <a SC2 reference genome without indel>
+sh SC2_substitution_main.sh /sample/20_sc2Alpha_Thailand.fasta.woINDEL.fa /sample/EPI_ISL_1346626.fasta
+note: 20_sc2Alpha_Thailand.fasta.woINDEL.fa and EPI_ISL_1346626.fasta are SC2 genome without indel
   
 The SC2 multiplefasta or SC2 reference genome without indel can generate using the following command:
   
