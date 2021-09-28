@@ -7,8 +7,8 @@
 multifasta=$1
 Reference=$2
 
-# Please check the directory of nCoV-19_Mismatch_source
-DIR="/path to .../source/nCoV-19_Mismatch_Ref"
+# Please check the directory of SARS-CoV-2-substitution-calling/source
+DIR="/home/root/Desktop/SARS-CoV2-substitution-calling/source/nCoV-19_Mismatch_Ref"
 
 read -p "Enter output name: " output 
 
