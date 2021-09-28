@@ -14,3 +14,13 @@ Last updated: 27 Sep 2021
 - mafft v7.487 (https://mafft.cbrc.jp/alignment/software/)
 - samtools v.1.12 (http://www.htslib.org/)
 - seqtk v1.3-r106 (https://github.com/lh3/seqtk)
+
+# Example
+An example of SARS-CoV-2-substitution-calling usage is provided in sample. Sample_output is a output of sample were created using the following command:
+
+sh SC2_substitution_main.sh /sample/20_sc2Alpha_Thailand.fasta.woINDEL.fa <SC2 multiplefasta without indel>  /sample/EPI_ISL_1346626.fasta <a SC2 reference genome without indel>
+  
+The SC2 multiplefasta or SC2 reference genome without indel can generate using the following command:
+  
+sh ncov_fillgap.sh /sample/20_sc2Alpha_Thailand.fasta
+
