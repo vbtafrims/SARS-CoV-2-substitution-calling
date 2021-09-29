@@ -47,7 +47,7 @@ for sample in $(cat sample_names.tmp); do
 	rm -f $sample.reposition	
 done
 rm -f NC_045512.tr
-awk 1 *.tr > $1.woINDEL.fa
+awk 1 *.tr > $1.noINDEL.fa
 rm -f *.tr
 rm *.ref *.aln *.upper *.upperN.fa
 	
